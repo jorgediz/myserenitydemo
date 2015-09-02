@@ -1,4 +1,4 @@
-<acceptance-test-run title="Looking up the definition of &apos;apple&apos;" name="Looking up the definition of &apos;apple&apos;" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="55835" timestamp="2015-09-02T08:15:01.703-03:00">
+<acceptance-test-run title="Looking up the definition of &apos;apple&apos;" name="Looking up the definition of &apos;apple&apos;" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="38250" timestamp="2015-09-02T08:38:30.461-03:00">
   <user-story id="lookup-a-definition" name="Lookup a definition" path="consult_dictionary/LookupADefinition.feature"/>
   <tags>
     <tag name="Consult dictionary" type="capability"/>
@@ -8,7 +8,7 @@
     <screenshots>
       <screenshot image="b2443b28a498503695f6e83bc2b2498e_NONE.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="32024">
+    <test-step result="SUCCESS" duration="16395">
       <screenshots>
         <screenshot image="b2443b28a498503695f6e83bc2b2498e_NONE.png"/>
       </screenshots>
@@ -23,15 +23,15 @@
       <screenshots>
         <screenshot image="b2443b28a498503695f6e83bc2b2498e_NONE.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3046">
+      <test-step result="SUCCESS" duration="3379">
         <screenshots>
           <screenshot image="9bcadc6ed33d778ef9ca22297a0d7951_NONE.png"/>
         </screenshots>
         <description>Enters: &lt;span class=&apos;step-parameter&apos;&gt;apple&lt;/span&gt;</description>
       </test-step>
-      <test-step result="SUCCESS" duration="7259">
+      <test-step result="SUCCESS" duration="6011">
         <screenshots>
-          <screenshot image="5a96b100f689789b353f9fc5e9ada522_NONE.png"/>
+          <screenshot image="d9fab3af0958ebe86e9faee9ab7e9e16_NONE.png"/>
           <screenshot image="e777a490053917c1ec2bb2158c691587_NONE.png"/>
         </screenshots>
         <description>Starts search</description>
@@ -42,7 +42,7 @@
     <screenshots>
       <screenshot image="e777a490053917c1ec2bb2158c691587_NONE.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="5164">
+    <test-step result="SUCCESS" duration="4942">
       <screenshots>
         <screenshot image="e777a490053917c1ec2bb2158c691587_NONE.png"/>
       </screenshots>
