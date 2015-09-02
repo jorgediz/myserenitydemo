@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="ed438227c41251f398d69908d5f1903de4d44ea484433d299df0212b08fe2a8c.html">Lookup A Definition</a>
+                > <a
+                    href="1699c02fb78d2ee3121c4b0b3364b1a86efdc12e9f0ead118328d2e395a66376.html">Looking up the definition of 'pear' </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-09-2015 08:16</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <!--
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="success-color">Looking up the definition of 'pear'<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">27.97s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div>
+                            <h3>Feature:  Lookup A Definition</h3>
+                            <div class="requirementNarrativeTitle">
+                            In order to talk better<br>As an English student<br>I want to look up word definitions
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="ee96acfa8df8303b583618a659552e67e0ced98aa0eeebb0081048b1e3ce40a1.html">Consult Dictionary (capability)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+-->
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-comments-o"></i>
+                                    <span class="story-header-title">Lookup A Definition </span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                In order to talk better<br>As an English student<br>I want to look up word definitions
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="d22ea03b6d18f8f26f968815f58010a6d7c2047160289e7780257fb820f23d91.html">Consult Dictionary
+                                    (capability)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><img class="story-outcome-icon"
+                                                            src="images/success.png"/></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Looking up the definition of 'pear'
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="b2443b28a498503695f6e83bc2b2498e_NONE.png" alt=""
+                     title="Is the home page" width="1247"/>
+                <img src="scaled_4efbf0fe9ea6c170e5d350b072ec73a8_NONE.png" alt=""
+                     title="Enters: &lt;span class='step-parameter'&gt;pear&lt;/span&gt;" width="1247"/>
+                <img src="scaled_bbec65a5f57604f1a1ad2826f9d1031f_NONE.png" alt=""
+                     title="Starts search" width="1247"/>
+                <img src="scaled_720d41dd856a5202aec44270864ac71c_NONE.png" alt=""
+                     title="Starts search" width="1247"/>
+                <img src="scaled_bab51a782dd22a263c0be968fe7ed22e_NONE.png" alt=""
+                     title="Should see definition: &lt;span class='step-parameter'&gt;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&lt;/span&gt;" width="1247"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.1.9</span>
+</div>
+</body>
+</html>
