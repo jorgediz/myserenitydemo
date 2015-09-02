@@ -1,2 +1,2 @@
 # myserenitydemo
-Serenity BDD demo (auto update 2) 
+Serenity BDD demo (auto update 3) 
