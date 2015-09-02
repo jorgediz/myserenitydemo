@@ -1,4 +1,4 @@
-<acceptance-test-run title="Looking up the definition of &apos;pear&apos;" name="Looking up the definition of &apos;pear&apos;" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="28457" timestamp="2015-09-02T08:58:07.199-03:00">
+<acceptance-test-run title="Looking up the definition of &apos;pear&apos;" name="Looking up the definition of &apos;pear&apos;" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="30732" timestamp="2015-09-02T10:00:32.244-03:00">
   <user-story id="lookup-a-definition" name="Lookup a definition" path="consult_dictionary/LookupADefinition.feature"/>
   <tags>
     <tag name="Consult dictionary" type="capability"/>
@@ -8,7 +8,7 @@
     <screenshots>
       <screenshot image="b2443b28a498503695f6e83bc2b2498e_NONE.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="12504">
+    <test-step result="SUCCESS" duration="13019">
       <screenshots>
         <screenshot image="b2443b28a498503695f6e83bc2b2498e_NONE.png"/>
       </screenshots>
@@ -23,15 +23,15 @@
       <screenshots>
         <screenshot image="bab51a782dd22a263c0be968fe7ed22e_NONE.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2847">
+      <test-step result="SUCCESS" duration="3445">
         <screenshots>
           <screenshot image="4efbf0fe9ea6c170e5d350b072ec73a8_NONE.png"/>
         </screenshots>
         <description>Enters: &lt;span class=&apos;step-parameter&apos;&gt;pear&lt;/span&gt;</description>
       </test-step>
-      <test-step result="SUCCESS" duration="4935">
+      <test-step result="SUCCESS" duration="4763">
         <screenshots>
-          <screenshot image="4efbf0fe9ea6c170e5d350b072ec73a8_NONE.png"/>
+          <screenshot image="bbec65a5f57604f1a1ad2826f9d1031f_NONE.png"/>
           <screenshot image="dfe20480fec64a1fcb705e35eff3bd3b_NONE.png"/>
         </screenshots>
         <description>Starts search</description>
@@ -42,7 +42,7 @@
     <screenshots>
       <screenshot image="bab51a782dd22a263c0be968fe7ed22e_NONE.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="2229">
+    <test-step result="SUCCESS" duration="2377">
       <screenshots>
         <screenshot image="bab51a782dd22a263c0be968fe7ed22e_NONE.png"/>
       </screenshots>
